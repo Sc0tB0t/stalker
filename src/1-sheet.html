@@ -227,7 +227,7 @@
 			<div class="ability">
 				<input type="hidden" name="attr_strength_die" value="1" />
 				<button class="dicefont roll-button" name="roll_strength" type="roll" value="@{rollbase} {{header=^{strength}}} {{showability=[[@{strength_use}]]}} {{r_ability=[+@{strength_die}d10](@{show_strength})}} {{draw_ability=[}](@{draw_strength})}} {{showleadership=[[@{leadership}]]}} {{r_leadership=+@{leadership}}} {{showselfcontrol=[[@{selfcontrol_ctrl}]]}} {{r_selfcontrol=+@{selfcontrol_die}d10}} {{draw_selfcontrol=[&#125;](@{draw_selfcontrol})}} {{showmodifier=[[@{rollmodifier}]]}} {{r_modifier=+@{rollmodifier}}} {{roll=[[@{strength_die}d10 [@{ability_tra}] + @{leadership} [@{leadership_tra}] + [[@{selfcontrol_ctrl} * @{selfcontrol_die}]]d10 [@{selfcontrol_tra}] + @{rollmodifier} [@{modifier_tra}]]]}}" data-i18n-title="roll_abi" title="Ability roll">0</button>
-				<button name="roll_show_strength" type="roll" value="@{rollbase} {{header=^{strength}}} {{ability_val=[@{strength}](~show_strength)}} {{ability_use=@{strength_use}}} {{showability=[[@{strength_use}]]}} {{button=[^{draw_ability}](~use_strength)}}" data-i18n-title="show_abi" title="Show ability"><span data-i18n="strength">Strength</span></button>
+				<button name="roll_show_strength" type="roll" value="@{rollbase} {{header=^{strength}}} {{ability_val=[@{strength}](~show_strength)}} {{ability_use=@{strength_use}}} {{showability=[[@{strength_use}]]}} {{button=[^{draw_ability}](~use_strength)}}" data-i18n-title="show_abi" title="Show ability"><span data-i18n="strength">Agility</span></button>
 				<span class="case" name="attr_strength">1</span>
 				<span class="usable" name="attr_strength_use">0</span>
 				<div class="ability-boxes">
